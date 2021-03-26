@@ -15,8 +15,8 @@
       </md-list-item>
 
       <md-list-item>
-        <router-link to="/tables">
-          <span class="material-icons">table_view</span> Tables
+        <router-link to="/users">
+          <span class="material-icons">group</span> Users
         </router-link>
       </md-list-item>
     </md-list>

@@ -4,7 +4,7 @@ import VueRouter from 'vue-router'
 import AuthLayout from '@/views/layouts/AuthLayout.vue'
 import PageLayout from '@/views/layouts/PageLayout.vue'
 import Home from '@/views/Home.vue'
-import Tables from '@/views/Tables.vue'
+import Users from '@/views/Users.vue'
 import Login from "@/views/Login.vue";
 
 import authenticate from "@/auth/authenticate";
@@ -36,9 +36,9 @@ const routes = [
         component: Home
       },
       {
-        path: "tables",
-        name: "Tables",
-        component: Tables
+        path: "users",
+        name: "Users",
+        component: Users
       },
     ]
   }
